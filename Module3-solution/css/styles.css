@@ -14,10 +14,10 @@ body {
 }
 
 #logo-img {
-    background: url(/Module3-solution/IMG/CompanyLogo\ .svg) no-repeat;
-    width: 100%;
-    height: 40px;
-    margin: 15px 15px 10px 0px;
+    background: url(/IMG/CompanyLogo\ .svg) no-repeat;
+    width: 160px;
+    height: 60px;
+    margin: 25px 25px 15px 25px;
 }
 
 svg {
