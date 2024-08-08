@@ -8,7 +8,8 @@
     console.log(speakWord);
   }
 
-  window.helloSpeaker = helloSpeaker;
+  window.helloSpeaker = helloSpeaker
+
 })(window);
 
 // STEP 3: Create an object, called 'helloSpeaker' to which you will attach
