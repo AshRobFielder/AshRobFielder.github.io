@@ -3,14 +3,12 @@
 
 (function (window) {
   var helloSpeaker = {};
-  helloSpeaker.name = "names";
   var speakWord = "Hello";
-  helloSpeaker = function speak(names) {
-    console.log(speakWord + " " + names);
+  helloSpeaker.speak = function () {
+    console.log(speakWord);
   }
 
-  window.helloSpeaker = speakWord;
-
+  window.helloSpeaker = helloSpeaker;
 })(window);
 
 // STEP 3: Create an object, called 'helloSpeaker' to which you will attach

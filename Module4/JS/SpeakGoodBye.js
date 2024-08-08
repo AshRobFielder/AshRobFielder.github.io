@@ -6,14 +6,12 @@
 
 (function (window) {
   var byeSpeaker = {};
-  byeSpeaker.name = "names";
   var speakWord = "Good Bye";
-  helloSpeaker = function speak(names) {
-    console.log(speakWord + " " + names);
+  byeSpeaker.speak = function () {
+    console.log(speakWord);
   }
 
-  window.byeSpeaker = speakWord;
-
+  window.byeSpeaker = byeSpeaker;
 })(window);
 
 // STEP 7: Create an object, called 'byeSpeaker' to which you will attach
